@@ -53,7 +53,9 @@ export default function Home() {
           <h1 className={styles.HomeGetstartedTransparentBoxHeader}>
             Get started Now
           </h1>
-          <h1 className={styles.HomeGetstartedTransparentBoxsubtext}>Pubiee Parrot will help your kid get around with puberty and live a healthy life</h1>
+          <h1 className={styles.HomeGetstartedTransparentBoxsubtext}>
+            Pubiee Parrot will help your kid get around with puberty and live a healthy life
+          </h1>
           <div className={styles.signinBTN}>Sign in</div>
           <div className={styles.alreadyHaveAnAccount}>
             already have an account? 

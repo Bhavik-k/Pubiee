@@ -136,17 +136,20 @@
   color: #FFFFFF;
   margin-left: 1;
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+  z-index: 900;
 }
 .HomeGetstarted{
   padding: 100px;
   padding-left:  150px;
   padding-right: 150px;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: max-content;
   background: linear-gradient(180deg, #00FBBF 1.76%, #01D1FF 8.59%, #FF4EF8 100%);
 
 }
 .HomeGetstartedTransparentBox{
-  height: 100%;
+  min-height: 100%;
+  max-height: max-content;
   background: rgba(63, 63, 63, 0.45);
   backdrop-filter: blur(8px);
   border-radius: 100px;
@@ -203,7 +206,7 @@
   font-size: large;
 }
 .alreadyHaveAnAccount a{
-  color: rgb(25, 0, 255);
+  color: rgb(0, 0, 255);
 }
 
 
@@ -215,5 +218,18 @@
   .speechBubble {
     height: 120px;
     top: 40vh;
+  }
+  .LandingHeading{
+    width: 100vw;
+  }
+  .HomeGetstarted{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .HomeGetstartedTransparentBoxHeader{
+    font-size: 40px
+  }
+  .HomeGetstartedTransparentBoxsubtext{
+    font-size: 30px
   }
 }
