@@ -1,0 +1,219 @@
+/* .all{
+  font-family: poppins;
+  overflow-x: hidden;
+}
+.all::-webkit-scrollbar {
+  display: none;
+} */
+
+.Mainheader{
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  /* background: rgba(255, 255, 255, 0.39); */
+  background: rgba(0, 0, 0, 0.39);
+  z-index: 100;
+}
+.HeaderLogo{
+  position: absolute;
+  width: 124px;
+  height: 113px;
+  left: 5px;
+  top: 4px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.HeadderHeading div{
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  /* WORIED ABOUT YOUR KID GROWING UP?Pubiee parrot is here for help!! */
+
+  position: absolute;
+  width: 451px;
+  height: 142.58px;
+  left: 731.5px;
+  top: 367.92px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  /* font- */
+
+}
+.HeadderHeading{
+  /* Pubiee */
+  position: absolute;
+  height: 30px;
+  left: 127px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+}
+.HeaderLi{
+  display: flex;
+  margin-left: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #FFFFFF;
+}
+.HeaderLiH1{
+  margin-left: 50px;
+  font-weight: lighter;
+  font-size: 18px;
+  cursor: pointer;
+}
+.HomeLanding{
+  /* Rectangle 2 */
+  height: 100vh;
+  width: 100vw;
+  
+  z-index: 1;
+  background: radial-gradient(69.51% 137.47% at 24.2% 49.17%, #00D1FF 17.19%, #6F98FC 53.12%, #FF4EF8 100%);
+
+}
+.LandingLogo{
+  /* istockphoto-1182596587-612x612 2 */
+
+  position: absolute;
+  width: auto;
+  height: 417.48px;
+  /* min-height: 90vh; */
+  left: 15vw;
+  top: 30vh;
+
+}
+
+
+
+.speechBubble {
+
+  position: absolute;
+  height: 200px;
+  width: auto;
+  left: 40vw;
+  top: 35vh;
+  /* top: 100px; */
+}
+.LandingCurve{
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.LandingHeading{
+  position: absolute;
+  left: 50vw;
+  top: 12vh;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 122.5%;
+  /* or 69px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transform: translateX(-50%);
+  color: #FFFFFF;
+  margin-left: 1;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+}
+.HomeGetstarted{
+  padding: 100px;
+  padding-left:  150px;
+  padding-right: 150px;
+  height: 100vh;
+  background: linear-gradient(180deg, #00FBBF 1.76%, #01D1FF 8.59%, #FF4EF8 100%);
+
+}
+.HomeGetstartedTransparentBox{
+  height: 100%;
+  background: rgba(63, 63, 63, 0.45);
+  backdrop-filter: blur(8px);
+  border-radius: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.HomeGetstartedTransparentBoxHeader{
+  /* Get started Now */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.HomeGetstartedTransparentBoxsubtext{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.signinBTN{
+  margin-left: auto;
+  margin-right: auto;
+  /* Rectangle 6 */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top:    15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  width: max-content;
+  color: #fff;
+  font-size: 33px;
+  background-color: #4DAAFD;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.alreadyHaveAnAccount{
+  margin-top: 10px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: large;
+}
+.alreadyHaveAnAccount a{
+  color: rgb(25, 0, 255);
+}
+
+
+@media screen and (max-width: 800px) {
+  .LandingLogo{
+    
+    left: 10px;
+  }
+  .speechBubble {
+    height: 120px;
+    top: 40vh;
+  }
+}
