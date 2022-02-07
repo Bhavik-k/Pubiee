@@ -233,3 +233,10 @@
     font-size: 30px
   }
 }
+@media screen and (max-width: 430px) {
+  .speechBubble {
+    left: 15vw;
+    height: 120px;
+    top: 50vh;
+  }
+}
