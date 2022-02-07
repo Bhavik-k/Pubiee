@@ -240,3 +240,9 @@
     top: 50vh;
   }
 }
+@media screen and (max-width: 391px) {
+  .LandingLogo{
+    width: 90vw;
+    height: auto;
+  }
+}
